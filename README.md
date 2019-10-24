@@ -1,7 +1,10 @@
 
 
+# vue-upload-multiple-image-korean
+vue-upload-multiple-image에 출력되는 언어를 한국어로 변경했습니다.
+
 # vue-upload-multiple-image
-A simple upload multiple image component for Vuejs
+A simple upload multiple image component for Vuejs 
 [NPM Package](https://www.npmjs.com/package/vue-upload-multiple-image)
 
 [Demo!](https://codepen.io/lekhang2512/pen/qJmQaZ)
