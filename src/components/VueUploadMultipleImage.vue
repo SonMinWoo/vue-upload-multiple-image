@@ -69,13 +69,7 @@
           <img class="show-img img-responsive" :src="image.path">
         </div>
       </div>
-      <div class="image-list-item position-relative cursor-pointer display-flex justify-content-center align-items-center" v-if="images.length < maxImage">
-        <svg class="icon add-image-svg" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M511.5 227.5h-227V.5h-57v227H-.5v57h228v228h57v-228h227z"></path></svg>
-        <div class="input-add-image position-absolute full-width full-height">
-          <label :for="idUpload" class="display-block full-width full-height cursor-pointer">
-          </label>
-        </div>
-      </div>
+
     </div>
     <div>
       <input class="display-none" :id="idUpload" @change="uploadFieldChange" name="images" :multiple="multiple" :accept="accept" type="file">
@@ -106,27 +100,27 @@ export default {
   props: {
     dragText: {
       type: String,
-      default: 'Kéo hình ảnh(nhiều)'
+      default: '이미지를 드래그해주세요'
     },
     browseText: {
       type: String,
-      default: '(hoặc) Chọn'
+      default: '클릭으로 이미지 업로드'
     },
     primaryText: {
       type: String,
-      default: 'Mặc định'
+      default: '기본'
     },
     markIsPrimaryText: {
       type: String,
-      default: 'Đặt làm mặc định'
+      default: '기본값으로 설정'
     },
     popupText: {
       type: String,
-      default: 'Hình ảnh này sẽ được hiển thị làm mặc định'
+      default: '해당 이미지가 기본값으로 표시됩니다'
     },
     dropText: {
       type: String,
-      default: 'Thả tệp của bạn ở đây ...'
+      default: '이곳에 파일을 놓아 주세요'
     },
     accept: {
       type: String,
