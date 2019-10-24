@@ -24,8 +24,8 @@ yarn dev
 Install the package:
 
 ```
-npm install vue-upload-multiple-image
-yarn add vue-upload-multiple-image
+npm install vue-upload-multiple-image-korean
+yarn add vue-upload-multiple-image-korean
 ```
 
 Then import it in your project
@@ -38,7 +38,7 @@ Vue.use(VueLazyload)
 ```
 
 ```javascript
-import VueUploadMultipleImage from 'vue-upload-multiple-image'
+import VueUploadMultipleImage from 'vue-upload-multiple-image-korean'
 
 export default {
   components: {
@@ -51,12 +51,12 @@ export default {
 
 ```html
 <script src="path/to/vue.js"></script>
-<script src="path/to/dist/vue-upload-multiple-image.js"></script>
+<script src="path/to/dist/vue-upload-multiple-image-korean.js"></script>
 ```
 
 ## Usage
 
-You can simply view [App.vue](https://github.com/lekhang2512/vue-image-lightbox-carousel/blob/master/src/App.vue) to see how to use **vue-upload-multiple-image**
+You can simply view [App.vue](https://github.com/lekhang2512/vue-image-lightbox-carousel/blob/master/src/App.vue) to see how to use **vue-upload-multiple-image-korean**
 
 How to use:
 ```html
@@ -94,8 +94,8 @@ How to use:
 </template>
 
 <script>
-import VueUploadMultipleImage from 'vue-upload-multiple-image'
-import axios from 'axios'
+import VueUploadMultipleImage from 'vue-upload-multiple-image-korean'
+
 export default {
   name: 'app',
   data () {
